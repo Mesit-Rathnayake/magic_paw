@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Cabin:wght@400;700&display=swap");
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  background-color: #001f1b;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Use Cabin for headings on pages that opt-in */
+.heading-font {
+  font-family: "Cabin", sans-serif;
+}
+
+/* Prevent fixed navbar from covering section titles */
+section {
+  scroll-margin-top: 88px;
+}
