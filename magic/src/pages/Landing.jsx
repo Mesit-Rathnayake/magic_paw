@@ -79,7 +79,7 @@ function Landing() {
         </div>
 
         {/* Desktop/tablet only: Two cats */}
-        <div className="relative z-40 mt-auto hidden w-full items-end justify-center gap-2 pb-10 sm:flex sm:gap-6 md:gap-10 lg:pb-14 xl:pb-16">
+        <div className="relative z-40 mt-auto hidden w-full items-end justify-center gap-2 pb-10 sm:flex sm:gap-6 md:gap-10 lg:pb-6 xl:pb-8">
           <img
             src={catLarge}
             alt="MagicPaw cat with wizard hat"
